@@ -1,0 +1,51 @@
+.container {
+  grid-column: 1 / span 1;
+  background: white;
+  box-shadow: var(--shadow);
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.heading {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.text {
+  color: var(--secondary-color);
+}
+
+.count {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.bargraph_container {
+  flex-basis: 1/5;
+}
+
+.more_info {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.para {
+  font-weight: 700;
+  color: black;
+}
+
+.icon {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}

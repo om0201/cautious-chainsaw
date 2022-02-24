@@ -1,0 +1,8 @@
+.container {
+  display: inline-block;
+  background: #fff;
+  width: 20%;
+  height: 100%;
+  word-wrap: break-word;
+  border-right: var(--border-color) solid 1px;
+}

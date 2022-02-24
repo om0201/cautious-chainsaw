@@ -1,0 +1,26 @@
+.container {
+  grid-column: 1 / span 4;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.money {
+  flex-basis: 1/4;
+  width: 25%;
+  background: violet;
+}
+.projects {
+  flex-basis: 1/4;
+  width: 25%;
+  background: indianred;
+}
+.health {
+  flex-basis: 1/4;
+  width: 25%;
+  background: blue;
+}
+.roi {
+  flex-basis: 1/4;
+  width: 25%;
+  background: lightgreen;
+}

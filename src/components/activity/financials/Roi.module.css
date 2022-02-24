@@ -1,0 +1,27 @@
+.container {
+  flex-basis: 1/4;
+  width: 25%;
+  background: var(--icon-color);
+  color: white;
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.heading {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.amount {
+  display: inline-block;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.logo {
+  padding: 0.5rem;
+  font-size: 2rem;
+  background: white;
+  color: var(--icon-color);
+  border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+.container {
+  flex-basis: 1/4;
+  width: 25%;
+  background: white;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.heading {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.number {
+  box-sizing: border-box;
+  display: inline;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.bar {
+  display: inline-block;
+  background: var(--icon-color);
+  height: 1.5vh;
+  width: 11vw;
+  border-radius: 0 10px 10px 0;
+}

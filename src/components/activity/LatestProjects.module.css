@@ -1,0 +1,21 @@
+.container {
+  grid-column: 3 / span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+
+.heading {
+  padding-left: 7.5%;
+  font-weight: 700;
+}
+
+a {
+  color: black;
+}
+
+.icon {
+  font-size: 1.5rem;
+  padding-right: 0.75rem;
+}

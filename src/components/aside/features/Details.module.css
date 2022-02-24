@@ -1,0 +1,50 @@
+summary::marker {
+  content: "";
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
+.list_heading {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.name {
+  flex-basis: 80%;
+}
+
+.icon {
+  font-size: 1rem;
+  padding-right: 0.3rem;
+}
+
+.marker {
+  display: flex;
+  align-items: end;
+  flex-basis: 20%;
+}
+
+.arrows {
+  font-size: 1rem;
+  text-align: end;
+}
+
+li {
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+li:first-child {
+  padding-top: 1rem;
+}
+
+.details {
+  padding: 0.75rem 0;
+  padding-left: 0.5rem;
+}
